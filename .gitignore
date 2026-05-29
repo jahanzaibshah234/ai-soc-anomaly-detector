@@ -1,0 +1,6 @@
+myenv/
+__pycache__/
+.pytest_cache/
+CACHEDIR.TAG
+*.csv
+logs_real_backup.csv

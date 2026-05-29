@@ -1,0 +1,39 @@
+name: Machine Learning Application CI Pipeline
+
+# Trigger the automation runner on every push or pull request to the main branch
+on:
+    push:
+        branches: [ main ]
+    pull_request:
+        branches: [ main ]
+
+jobs:
+    continuous-integration-test:
+        runs-on: ubuntu-latest
+
+        steps:
+            # Download your repository source code onto the GitHub virtual machine
+            - name: Checkout Code Repository
+              uses: actions/checkout@v4
+
+            # Set up an isolated Python runtime environment
+            - name: Set up Python 3.10
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.10'
+
+            # Install all required production packages and testing utilities
+            - name: Install System Dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install -r requirements.txt
+    
+            # Generate the model binary core programmatically so the backend can load it during testing
+            - name: Train and Serialize AI Anomaly Model
+              run: |
+                python model.py
+
+            # Run your unit test battery cleanly with zero warning flags
+            - name: Execute Automated Test Battery via Pytest
+              run: |
+                pytest test.py -v
