@@ -1,8 +1,7 @@
 # 🛡️ AI Security Log Analyzer & SOC Dashboard
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
 An end-to-end MLOps and cybersecurity pipeline that uses an artificial intelligence classification model to perform live and batch anomaly detection on security logs. Security events are analyzed in real-time, and anomalies are displayed on a professional SOC dashboard.
@@ -31,19 +30,18 @@ An end-to-end MLOps and cybersecurity pipeline that uses an artificial intellige
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🛠️ Tech Stack
 
-| Component | Technology | Version |
-|-----------|-----------|---------|
-| **Backend** | FastAPI | 0.104+ |
-| **ML Framework** | Scikit-learn / Joblib | Latest |
-| **Frontend** | HTML5, CSS3, JavaScript | Modern |
-| **Visualization** | Chart.js | Latest |
-| **Testing** | pytest, httpx | Latest |
-| **CI/CD** | GitHub Actions | Built-in |
-| **Python** | 3.9+ | Recommended 3.11+ |
+| Component | Technology |
+|-----------|-----------|
+| **Backend** | FastAPI |
+| **ML Framework** | Scikit-learn / Joblib |
+| **Frontend** | HTML, CSS |
+| **Visualization** | Chart.js |
+| **Testing** | pytest, httpx |
+| **CI/CD** | GitHub Actions |
+| **Python** | 3.10 |
 
 ## 📁 Project Structure
 
