@@ -510,7 +510,7 @@ For issues, questions, or suggestions:
 
 <div align="center">
 
-**Made with ❤️ by Jahanzaib Shah & Maria Rashid**
+**Made with ❤️ by Jahanzaib Khalid & Maria Rashid**
 
 ⭐ If this project helped you, please consider giving it a star!
 
