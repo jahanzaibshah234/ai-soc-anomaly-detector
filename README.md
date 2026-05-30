@@ -1,8 +1,10 @@
 # 🛡️ AI Security Log Analyzer & SOC Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+
+👥 Developed by Jahanzaib Khalid & Maria Rashid
 
 An end-to-end MLOps and cybersecurity pipeline that uses an artificial intelligence classification model to perform live and batch anomaly detection on security logs. Security events are analyzed in real-time through a modern, responsive dashboard.
 
@@ -426,11 +428,10 @@ This generates the required `security_model.pkl` file in the root directory.
 
 ## 👥 About
 
-This project was developed by a dedicated team focused on advancing cybersecurity and machine learning practices.
+This project was developed as a practical Machine Learning, MLOps, and Cybersecurity portfolio project focused on applying AI techniques to security log analysis and anomaly detection.
 
-### **Jahanzaib Shah** 🔐
-- **Role**: Machine Learning Engineer & Cybersecurity Specialist
-- **Expertise**: AI-driven threat detection, anomaly detection algorithms, and MLOps pipelines
+### **Jahanzaib Khalid** 
+- **Role**: Machine Learning Engineer & Backend Developer
 - **Contributions**:
   - Designed and trained the Isolation Forest anomaly detection model
   - Built the FastAPI backend with real-time inference capabilities
@@ -441,16 +442,15 @@ This project was developed by a dedicated team focused on advancing cybersecurit
 - **Email**: jahanzaib1234510@gmail.com
 - **LinkedIn**: [Jahanzaib Khalid](https://www.linkedin.com/in/jahanzaib-khalid/)
 
-### **Maria Rashid** 💻
-- **Role**: Full-Stack Developer & UI/UX Engineer
-- **Expertise**: Frontend development, responsive design, and user experience optimization
+### **Maria Rashid** 
+- **Role**: Python Developer & Frontend Support
 - **Contributions**:
-  - Designed and implemented the modern dark-mode dashboard UI
-  - Built interactive Chart.js visualizations for threat analytics
-  - Developed responsive HTML/CSS templates
-  - Integrated long-polling mechanism for real-time updates
-  - Optimized frontend performance and accessibility
-  - Contributed to testing and quality assurance
+  - Assisted in Python development and application logic. 
+  - Worked on frontend integration (HTML/CSS templates)
+  - Supported testing and overall project structuring
+- **GitHub**: [@mariarashid730](https://github.com/mariarashid730)
+- **Email**: mariarashid730@gmail.com
+- **LinkedIn**: [Maria Rashid](https://www.linkedin.com/in/maria-rashid-4b0819282/)
 
 ### Team Values
 
@@ -478,12 +478,12 @@ Contributions are welcome! Please follow these steps:
 - Ensure all tests pass locally before pushing
 - Use type hints in Python code
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
+- Special thanks to everyone who contributed to and supported this project throughout its development.
+
+**Special Thanks**:
+- Maria Rashid for her valuable contribution in development and support
 - FastAPI framework for the robust, asynchronous web server
 - Scikit-learn and Joblib for the machine learning pipeline
 - Chart.js for beautiful, interactive data visualizations
