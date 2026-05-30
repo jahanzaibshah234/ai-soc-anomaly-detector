@@ -4,7 +4,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
-An end-to-end MLOps and cybersecurity pipeline that uses an artificial intelligence classification model to perform live and batch anomaly detection on security logs. Security events are analyzed in real-time, and anomalies are displayed on a professional SOC dashboard.
+An end-to-end MLOps and cybersecurity pipeline that uses an artificial intelligence classification model to perform live and batch anomaly detection on security logs. Security events are analyzed in real-time through a modern, responsive dashboard.
 
 ## ✨ Key Features
 
@@ -29,6 +29,7 @@ An end-to-end MLOps and cybersecurity pipeline that uses an artificial intellige
 - [CI/CD Pipeline](#cicd-pipeline)
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
+- [About](#about)
 - [Contributing](#contributing)
 
 ## 🛠️ Tech Stack
@@ -423,6 +424,42 @@ This generates the required `security_model.pkl` file in the root directory.
 - Regularly update dependencies
 - Run security audits on submitted logs
 
+## 👥 About
+
+This project was developed by a dedicated team focused on advancing cybersecurity and machine learning practices.
+
+### **Jahanzaib Shah** 🔐
+- **Role**: Machine Learning Engineer & Cybersecurity Specialist
+- **Expertise**: AI-driven threat detection, anomaly detection algorithms, and MLOps pipelines
+- **Contributions**:
+  - Designed and trained the Isolation Forest anomaly detection model
+  - Built the FastAPI backend with real-time inference capabilities
+  - Implemented stateless architecture for scalable deployments
+  - Developed comprehensive CI/CD testing framework
+  - Created responsive SOC dashboard with live metrics
+- **GitHub**: [@jahanzaibshah234](https://github.com/jahanzaibshah234)
+- **Email**: jahanzaib1234510@gmail.com
+- **LinkedIn**: [Jahanzaib Khalid](https://www.linkedin.com/in/jahanzaib-khalid/)
+
+### **Maria Rashid** 💻
+- **Role**: Full-Stack Developer & UI/UX Engineer
+- **Expertise**: Frontend development, responsive design, and user experience optimization
+- **Contributions**:
+  - Designed and implemented the modern dark-mode dashboard UI
+  - Built interactive Chart.js visualizations for threat analytics
+  - Developed responsive HTML/CSS templates
+  - Integrated long-polling mechanism for real-time updates
+  - Optimized frontend performance and accessibility
+  - Contributed to testing and quality assurance
+
+### Team Values
+
+- 🎯 **Innovation**: Continuously exploring cutting-edge technologies in AI and cybersecurity
+- 🔒 **Security First**: Building secure, resilient systems with best practices
+- 📊 **Data-Driven**: Making decisions based on metrics and performance analytics
+- 🤝 **Collaboration**: Working together to deliver robust, production-ready solutions
+- 📚 **Knowledge Sharing**: Committed to open-source and community contributions
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -444,12 +481,6 @@ Contributions are welcome! Please follow these steps:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👤 Author
-
-**Jahanzaib Shah**
-- GitHub: [@jahanzaibshah234](https://github.com/jahanzaibshah234)
-- Repository: [ai-soc-anomaly-detector](https://github.com/jahanzaibshah234/ai-soc-anomaly-detector)
 
 ## 🙏 Acknowledgments
 
@@ -477,4 +508,14 @@ For issues, questions, or suggestions:
 
 ---
 
-**Last Updated**: 2026-05-29 | **Version**: 1.0.0 | **Status**: Active Development
+<div align="center">
+
+**Made with ❤️ by Jahanzaib Shah & Maria Rashid**
+
+⭐ If this project helped you, please consider giving it a star!
+
+[Report Bug](https://github.com/jahanzaibshah234/ai-soc-anomaly-detector/issues) · [Request Feature](https://github.com/jahanzaibshah234/ai-soc-anomaly-detector/issues)
+
+</div>
+
+**Last Updated**: 2026-05-30 | **Version**: 1.0.0 | **Status**: Active Development
